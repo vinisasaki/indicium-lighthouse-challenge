@@ -22,7 +22,10 @@ O objetivo é analisar um dataset cinematográfico e desenvolver um modelo predi
 ## 📂 Estrutura do Repositório  
 
 - **LH_CD_VINICIUS_SASAKI.ipynb**  
-  (Notebook com EDA, modelagem e respostas)
+  (Notebook com o relatório da EDA, modelagem e respostas)
+
+- **desafio_indicium_imdb.csv**  
+  (Dataset do desafio)
     
 - **modelo_imdb.pkl**  
   (Modelo final salvo em formato PKL)
@@ -47,12 +50,12 @@ O objetivo é analisar um dataset cinematográfico e desenvolver um modelo predi
 
 ---
 
-## 🚀 Como Executar  
+## 🚀 Como Executar no Jupyter Notebook 
 
 1. **Clone o repositório**  
    ```bash
-   git clone https://github.com/vinisasaki/LH_CD_VINICIUS_SASAKI.git
-   cd LH_CD_VINICIUS_SASAKI
+   git clone https://github.com/vinisasaki/indicium-lighthouse-challenge.git
+   cd indicium-lighthouse-challenge
    ```
 2. **Crie um ambiente virtual e instale as dependências**
    ```bash
@@ -71,17 +74,17 @@ O objetivo é analisar um dataset cinematográfico e desenvolver um modelo predi
    - Acesse https://colab.research.google.com  
    - Selecione **GitHub**, e copie a URL do repositório: 
      ```
-     [https://github.com/vinisasaki/titanic-descriptive-analysis](https://github.com/vinisasaki/indicium-lighthouse-challenge)
+     https://github.com/vinisasaki/indicium-lighthouse-challenge
      ```  
    - Abra `LH_CD_VINICIUS_SASAKI.ipynb`.
 
 2. **Carregue o dataset**  
-   - Faça o upload do `train.csv` (localizado em `titanic_dataset/`) pelo painel de Arquivos à esquerda, ou  
+   - Faça o upload do `desafio_indicium_imdb.csv` pelo painel de Arquivos à esquerda, ou  
    - Monte o seu Google Drive e carregue-o via código:
      ```python
      from google.colab import drive
      drive.mount('/content/drive')
-     df = pd.read_csv('/content/drive/MyDrive/data/train.csv')
+     df = pd.read_csv('/content/drive/MyDrive/data/desafio_indicium_imdb.csv')
      ```
 
 3. **Execute as células**  
