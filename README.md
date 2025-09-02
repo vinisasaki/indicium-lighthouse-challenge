@@ -30,11 +30,11 @@ O objetivo é analisar um dataset cinematográfico e desenvolver um modelo predi
 - **modelo_imdb.pkl**  
   (Modelo final salvo em formato PKL)
   
-- **requirements.txt**
-  (Pacotes e versões utilizados)
+- **requirements.txt**  
+  (Bibliotecas e versões utilizadas)
   
 - **README.md**  
-  (Este arquivo)
+  (Este arquivo explicativo)
   
 ---
 
